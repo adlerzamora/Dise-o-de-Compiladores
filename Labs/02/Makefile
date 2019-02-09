@@ -1,0 +1,5 @@
+all:
+	./syntaxAnalyser.py
+
+clean:
+

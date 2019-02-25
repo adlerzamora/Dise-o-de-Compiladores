@@ -3,8 +3,19 @@
 %}
 
 %%
-[0123456789]+           printf("NUMBER\n");
-[a-zA-Z][a-zA-Z0-9]*    printf("WORD\n");
+\/\/.*                  printf("comment");
+f                       printf("floatdcl ");
+i                       printf("intdcl ");
+p                       printf("printf ");
+=                       printf("assign ");
+-                       printf("minus ");
+\*                       printf("times ");
+\/                       printf("divided by ");
+\+                       printf("plus ");
+[0-9]+                  printf("inum ");
+[0-9]+\.[0-9]*          printf("fnum ");
+[a-z]+                  printf("id");
+\n                      printf("\n"); 
 %%
 
 int main(int argc, char **argv) {

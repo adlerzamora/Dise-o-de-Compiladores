@@ -4,4 +4,4 @@ Este repositorio GIT contendrá una serie de actividades y laboratorios desarrol
 
 #Git General Improvements
 
-Se ha configurado la cuenta de git para tener two-factor authentication activado ademas de las correspondientes claves SSH tanto a la maquina local como al servidor.
+Se ha configurado la cuenta de git para tener two-factor authentication activado ademas de las correspondientes claves SSH tanto a la maquina local como al servidor. Ultima modificación de Readme como segunda prueba.
